@@ -1,3 +1,20 @@
 {
-    "reservations": []
+  "users": [
+  
+    {
+      "name": "Krithika",
+      "password": "krithika",
+      "email": "k@gmail.com",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "name": "Krithika",
+      "password": "Krithika",
+      "email": "K@gmail.com",
+      "role": "admin",
+      "id": 5
+    }
+   
+  ]
 }
