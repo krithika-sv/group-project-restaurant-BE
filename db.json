@@ -15,6 +15,470 @@
       "id": 5
     }
   ],
+  "categories": [
+    {
+      "id": 1,
+      "category": "Starters",
+      "image": "https://spiceupthecurry.com/wp-content/uploads/2020/09/paneer-tikka-recipe-2.jpg"
+    },
+    {
+      "id": 2,
+      "category": "Main Course (Vegetarian)",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqiuOQhXun84erVOem7_Eo4k8pjkOyn1Yk9d0V-xDwnQ&s=10"
+    },
+    {
+      "id": 3,
+      "category": "Main Course (Non-Vegetarian)",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8qeraB8aH0BjwJfxweIZygM4PYWnr2771-dVrS84Zfw&s=10"
+    },
+    {
+      "id": 4,
+      "category": "Rice & Biryani",
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/chicken-biryani-recipe.jpg"
+    },
+    {
+      "id": 5,
+      "category": "Indian Breads",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RykvOU0UwXfyl4g8PtUVfNOJyGtjCl0MF2mWuX4PCg&s=10"
+    },
+    {
+      "id": 6,
+      "category": "South Indian Specials",
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/06/masala-dosa.jpg"
+    },
+    {
+      "id": 7,
+      "category": "Beverages",
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/04/mango-lassi-recipe.jpg"
+    },
+    {
+      "id": 8,
+      "category": "Desserts",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd4B0ReO4aGu5joHCLHoJMyjxz_0o9fL0oQ1UKjNtkog&s=10"
+    },
+    {
+      "id": 9,
+      "category": "Chef's Specials",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYD65IjJjhcIKnLNJt1nf3fjPwc35vTSx95qcxrylxpw&s=10"
+    },
+    {
+      "id": 10,
+      "category": "Salads",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWK2gBSMmly-2_hEFzfSx7ctsQ667FoWvedkKUVyWHuw&s=10"
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "category": "Starters",
+      "name": "Veg Samosa",
+      "description": "Crispy pastry filled with spiced potatoes and peas.",
+      "price": 80,
+      "available": true,
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/samosa-recipe.jpg"
+    },
+    {
+      "id": 2,
+      "category": "Starters",
+      "name": "Paneer Tikka",
+      "description": "Grilled cottage cheese marinated with Indian spices.",
+      "price": 220,
+      "available": true,
+      "image": "https://spiceupthecurry.com/wp-content/uploads/2020/09/paneer-tikka-recipe-2.jpg"
+    },
+    {
+      "id": 3,
+      "category": "Starters",
+      "name": "Veg Spring Rolls",
+      "description": "Crispy rolls stuffed with mixed vegetables.",
+      "price": 180,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8cQweH9wFYgo5ZfO_7FRXeZA5DWV_3xqpgH8bZ4ReTA&s=10"
+    },
+    {
+      "id": 4,
+      "category": "Starters",
+      "name": "Chicken Tikka",
+      "description": "Boneless chicken marinated and grilled.",
+      "price": 280,
+      "available": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTerYn5wmMHjehBI1mO9eD9XQD7NEbsFdYYeygC_B-2JQ&s=10"
+    },
+    {
+      "id": 5,
+      "category": "Starters",
+      "name": "Tandoori Chicken",
+      "description": "Traditional clay oven roasted chicken.",
+      "price": 350,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTORPDObHx9gERKo7r7tlRt6VtMf6b0yOIzumeRixHpalxmfAyLa1uNhg&s=10"
+    },
+    {
+      "id": 6,
+      "category": "Starters",
+      "name": "Fish Fry",
+      "description": "Spicy marinated fish, shallow fried.",
+      "price": 320,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR51Bs2PrXgabhWBstg4usxQp5nWZ6aXkN9KIG2Ova3ew&s=10"
+    },
+    {
+      "id": 7,
+      "category": "Main Course (Vegetarian)",
+      "name": "Butter Paneer Masala",
+      "description": "Paneer cooked in rich tomato butter gravy.",
+      "price": 260,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROu_Cewy9lNwpRkmfoL8OVlgiLkoABMuW2P3xN2uCnhQ&s=10"
+    },
+    {
+      "id": 8,
+      "category": "Main Course (Vegetarian)",
+      "name": "Kadai Paneer",
+      "description": "Paneer cooked with onions and capsicum.",
+      "price": 250,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVhWls94EMCk2N_C5gUEVIcdTlG0WH9GY50a7tdajJVQ&s=10"
+    },
+    {
+      "id": 9,
+      "category": "Main Course (Vegetarian)",
+      "name": "Palak Paneer",
+      "description": "Fresh paneer in creamy spinach gravy.",
+      "price": 240,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTsAp4Rqfm6LariFqEZrddb4-ERHwsMC0yh25Pc5rty5UVvQJKMVgw8PhEyMS4ADTuXmrxFH4u-Rmt0FwDkZ965DrLJpJCoybX4zkQSd2gLQ&s=10"
+    },
+    {
+      "id": 10,
+      "category": "Main Course (Vegetarian)",
+      "name": "Dal Tadka",
+      "description": "Yellow lentils tempered with Indian spices.",
+      "price": 180,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzreS1PaR2KR8Uqa-yGUZ4l7Tk4qaEkIW6yiN8t6Qi3w&s=10"
+    },
+    {
+      "id": 11,
+      "category": "Main Course (Vegetarian)",
+      "name": "Dal Makhani",
+      "description": "Slow-cooked black lentils with butter.",
+      "price": 220,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlx1KtvUwQawFIyMt6BdOw-O12UKTNBsCjPIX93KLsho-7AtSkkjbJeHCjsfhgQ36rDEFkdht2ztaxECbt46Kd_imVpxFduF6SXHxxZOEIKA&s=10"
+    },
+    {
+      "id": 12,
+      "category": "Main Course (Vegetarian)",
+      "name": "Mixed Vegetable Curry",
+      "description": "Seasonal vegetables in rich Indian gravy.",
+      "price": 210,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQfMWefTYsb6f0HBEHSQDRZDHBT7hjB54OKy1-oHMDzQ&s=10"
+    },
+    {
+      "id": 13,
+      "category": "Main Course (Non-Vegetarian)",
+      "name": "Butter Chicken",
+      "description": "Creamy tomato-based chicken curry.",
+      "price": 340,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvmEnRF4HkesEXJXnZThxJ4MkVfN6j-taF5BYwqCcC2Q&s=10"
+    },
+    {
+      "id": 14,
+      "category": "Main Course (Non-Vegetarian)",
+      "name": "Chicken Curry",
+      "description": "Traditional Indian chicken curry.",
+      "price": 320,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSudPvh1CTLjKK4p26ycKl720nwMHRp0_-el7WgGrx8tA&s=10"
+    },
+    {
+      "id": 15,
+      "category": "Main Course (Non-Vegetarian)",
+      "name": "Chicken Chettinad",
+      "description": "Spicy South Indian chicken curry.",
+      "price": 340,
+      "available": true,
+      "image": "https://www.whiskaffair.com/wp-content/uploads/2020/09/Chicken-Chettinad-Curry-2-3.jpg"
+    },
+    {
+      "id": 16,
+      "category": "Main Course (Non-Vegetarian)",
+      "name": "Mutton Rogan Josh",
+      "description": "Authentic Kashmiri mutton curry.",
+      "price": 420,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPaTiKOWDATQkhMxdpFai-bpBMgxMIPA6ZciUQpaxmYw7G3oMO2ZYv5aOA&s=10"
+    },
+    {
+      "id": 17,
+      "category": "Main Course (Non-Vegetarian)",
+      "name": "Fish Curry",
+      "description": "Fish cooked in coconut curry.",
+      "price": 360,
+      "available": false,
+      "image": "https://www.whiskaffair.com/wp-content/uploads/2016/10/Tomato-Fish-Curry-2-1.jpg"
+    },
+    {
+      "id": 18,
+      "category": "Main Course (Non-Vegetarian)",
+      "name": "Prawn Masala",
+      "description": "Prawns cooked in spicy masala gravy.",
+      "price": 420,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSyYAHAYYzGNr4qTCGIxqlEFJ9_w6VNEzZztfvy_6vzg&s=10"
+    },
+    {
+      "id": 19,
+      "category": "Rice & Biryani",
+      "name": "Chicken Biryani",
+      "description": "Authentic Hyderabadi dum biryani.",
+      "price": 340,
+      "available": true,
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/chicken-biryani-recipe.jpg"
+    },
+    {
+      "id": 20,
+      "category": "Rice & Biryani",
+      "name": "Veg Biryani",
+      "description": "Fragrant basmati rice with vegetables.",
+      "price": 240,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWMav_J-QWJV5-PfSJ3Oe2dl0Ya1owsHwFM3rzGzD0ZCado6hmocwQ3kE&s=10"
+    },
+    {
+      "id": 21,
+      "category": "Indian Breads",
+      "name": "Butter Naan",
+      "description": "Soft tandoor-baked naan brushed with butter.",
+      "price": 70,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDLRgsti4c8K317miHTY2EMlPWk9boW4Y4dVCKkwXtxw&s=10"
+    },
+    {
+      "id": 22,
+      "category": "South Indian Specials",
+      "name": "Masala Dosa",
+      "description": "Crispy dosa filled with potato masala.",
+      "price": 160,
+      "available": false,
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/06/masala-dosa.jpg"
+    },
+    {
+      "id": 23,
+      "category": "Beverages",
+      "name": "Mango Lassi",
+      "description": "Refreshing mango yogurt drink.",
+      "price": 120,
+      "available": true,
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/04/mango-lassi-recipe.jpg"
+    },
+    {
+      "id": 24,
+      "category": "Desserts",
+      "name": "Gulab Jamun",
+      "description": "Soft milk dumplings soaked in sugar syrup.",
+      "price": 90,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZI8sJv8_Go96Hn3rFD6JiVIElf8mCd1i2bg2uu2E2CA&s=10"
+    },
+    {
+      "id": 25,
+      "category": "Chef's Specials",
+      "name": "Royal Thali",
+      "description": "A complete Indian meal with assorted dishes.",
+      "price": 450,
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdI7VmUz3AOEF9HjHcM0hVC6QewczX2mvRQSKoR2lyLQ&s=10"
+    },
+    {
+      "id": 27,
+      "category": "Chef's Specials",
+      "name": "Kerala Sadya",
+      "description": "Traditional Kerala feast served on a banana leaf with over 20 authentic dishes.",
+      "price": 550,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvBM0AbujyG3QiQyt52EBJcamgAWCZWlsfD6PIFvWhWuTwfkZDwRNw1b3P&s=10"
+    },
+    {
+      "id": 28,
+      "category": "Chef's Specials",
+      "name": "Chicken Thali",
+      "description": "Steamed rice, chicken curry, dal, vegetables, pickle, papad, and dessert.",
+      "price": 420,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4fAlHb9lzQ78SlcXWzfSBy7jPwC11dTkjZzn6f8ZtlQ&s=10"
+    },
+    {
+      "id": 29,
+      "category": "Chef's Specials",
+      "name": "Seafood Platter",
+      "description": "Grilled fish, prawns, squid, and crab served with house-made sauces.",
+      "price": 750,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzD-VGy4ARgR8CvGu0UqSGy2MTpjnH_RbW41cnDOShJw&s=10"
+    },
+    {
+      "id": 30,
+      "category": "Chef's Specials",
+      "name": "Paneer Maharaja Platter",
+      "description": "Paneer tikka, butter paneer, naan, jeera rice, salad, and dessert.",
+      "price": 480,
+      "image": "https://ranveerbrar.com/wp-content/uploads/2021/02/Paneer-sizzler-scaled-scaled.jpg"
+    },
+    {
+      "id": 31,
+      "category": "Chef's Specials",
+      "name": "Hyderabadi Dum Biryani Combo",
+      "description": "Chicken dum biryani served with raita, salan, soft drink, and gulab jamun.",
+      "price": 520,
+      "image": "https://image.cdn.shpy.in/489240/SKU-0057_0-1770670512211.jpg?width=600&format=webp"
+    },
+    {
+      "id": 32,
+      "category": "Chef's Specials",
+      "name": "Family Feast Combo",
+      "description": "A complete meal for four including starters, curries, biryani, breads, beverages, and desserts.",
+      "price": 1499,
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+      "id": 33,
+      "category": "Salads",
+      "name": "Green Salad",
+      "description": "Fresh cucumber, tomato, onion, carrot, and lettuce.",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+    },
+    {
+      "id": 34,
+      "category": "Salads",
+      "name": "Garden Fresh Salad",
+      "description": "Seasonal vegetables tossed with herbs and lemon dressing.",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
+    },
+    {
+      "id": 35,
+      "category": "Salads",
+      "name": "Greek Salad",
+      "description": "Cucumber, tomato, olives, onions, feta cheese, and olive oil dressing.",
+      "price": 180,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5fxxO4AtyhnTeSpmOT2ixGcwW-a8thP3KnyWFq4U7Ug&s=10"
+    },
+    {
+      "id": 36,
+      "category": "Salads",
+      "name": "Paneer Tikka Salad",
+      "description": "Grilled paneer cubes served with fresh vegetables and mint dressing.",
+      "price": 220,
+      "image": "https://images.unsplash.com/photo-1608039755401-742074f0548d"
+    },
+    {
+      "id": 37,
+      "category": "Salads",
+      "name": "Caesar Salad",
+      "description": "Crisp lettuce, croutons, parmesan cheese, and creamy Caesar dressing.",
+      "price": 210,
+      "image": "https://images.unsplash.com/photo-1551248429-40975aa4de74"
+    },
+    {
+      "id": 38,
+      "category": "Salads",
+      "name": "Fruit Salad",
+      "description": "A refreshing mix of seasonal fruits topped with honey and mint.",
+      "price": 170,
+      "image": "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea"
+    },
+    {
+      "id": 39,
+      "category": "Salads",
+      "name": "Sprouts Salad",
+      "description": "Healthy sprouts mixed with onions, tomatoes, coriander, and lemon juice.",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+    },
+    {
+      "id": 40,
+      "category": "Salads",
+      "name": "Boondi Raita",
+      "description": "Creamy yogurt mixed with crispy boondi and aromatic spices.",
+      "price": 100,
+      "image": "https://shwetainthekitchen.com/wp-content/uploads/2025/07/Boondi-Raita.jpg"
+    },
+    {
+      "id": 41,
+      "category": "Indian Breads",
+      "name": "Cheese Garlic Naan",
+      "description": "Soft naan stuffed with mozzarella cheese and topped with garlic butter.",
+      "price": 140,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEqx-UWmGeN2Q_FHy1lyKPJum9yw9ikEfcScfwMOFevQ&s=10"
+    },
+    {
+      "id": 42,
+      "category": "Indian Breads",
+      "name": "Stuffed Kulcha",
+      "description": "Traditional Amritsari kulcha stuffed with spicy potato filling.",
+      "price": 130,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjsN_whfpLC10BBAkQbRXCVY76PLJxyXsuxUCcfsKbjLKUXeQ3B4EryV8&s=10"
+    },
+    {
+      "id": 43,
+      "category": "Beverages",
+      "name": "Fresh Watermelon Juice",
+      "description": "Freshly squeezed watermelon juice served chilled.",
+      "price": 140,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJnAGWYmZNGysBmk9k6zk3H18FzSRoTCLMKHwJrtG-ZQ&s=10"
+    },
+    {
+      "id": 44,
+      "category": "Beverages",
+      "name": "Virgin Mojito",
+      "description": "Refreshing mint, lime, and soda mocktail served over ice.",
+      "price": 160,
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd"
+    },
+    {
+      "id": 45,
+      "category": "Desserts",
+      "name": "Rabri",
+      "description": "Rich, creamy sweetened condensed milk flavored with saffron and pistachios.",
+      "price": 150,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6DEfpnHTc_s1Bi9GTs1PsUBnl0YRDdTmPAuqa7U7sfQ&s=10"
+    },
+    {
+      "id": 46,
+      "category": "Desserts",
+      "name": "Shahi Tukda",
+      "description": "Crispy fried bread soaked in saffron rabri and garnished with nuts.",
+      "price": 180,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwQNg2ouEWFAV9O5TkZjW_IETNXH10XqN2f3XDN8NTGg&s=10"
+    },
+    {
+      "id": 47,
+      "category": "South Indian Specials",
+      "name": "Podi Dosa",
+      "description": "Crispy dosa coated with spicy gunpowder (podi) and ghee, served with chutney and sambar.",
+      "price": 190,
+      "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976"
+    },
+    {
+      "id": 48,
+      "category": "South Indian Specials",
+      "name": "Poori Masala",
+      "description": "Fluffy deep-fried pooris served with flavorful potato masala and coconut chutney.",
+      "price": 170,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzdGjm5qc6iq0m9C1i_j_mL2xkUYFBAJ-HCzoWHhSlnzB2VgHqvTN0gVsk&s=10"
+    },
+    {
+      "id": 49,
+      "category": "South Indian Specials",
+      "name": "Puttu & Kadala Curry",
+      "description": "Traditional Kerala steamed rice cake served with spicy black chickpea curry.",
+      "price": 220,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS97kny6WpBHc_h_Z-eKD3hNjU0HE0iqgIUZb3ApQjlEA&s=10"
+    }
+  ],
+  "cart": [],
+  "orders": [],
   "tablereservations": [
     {
       "name": "Ananya",
